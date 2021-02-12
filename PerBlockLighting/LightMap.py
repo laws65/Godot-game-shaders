@@ -41,7 +41,7 @@ def light_block(x, y, intensity, iteration):
     if tiles[x][y] == -1:
         dropoff = 0.9
     else:
-        dropoff = 0.6
+        dropoff = 0.3
 
     for nx in range(x-1, x+2): # 3x3 area around the block to light
         for ny in range(y-1, y+2):
