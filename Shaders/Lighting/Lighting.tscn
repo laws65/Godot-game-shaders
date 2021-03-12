@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://src/Shaders/Lighting/Lighting.tres" type="Material" id=1]
+[ext_resource path="res://src/Shaders/Lighting/Light.png" type="Texture" id=2]
+
+[node name="Lighting" type="Sprite"]
+material = ExtResource( 1 )
+z_index = 1
+texture = ExtResource( 2 )
+centered = false
