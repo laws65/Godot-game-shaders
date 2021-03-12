@@ -1,2 +1,2 @@
-# Godot-game-shaders
-The shaders for my game using the Godot Engine.
+# Godot-resources
+Anything from my game that can be open source is put here
